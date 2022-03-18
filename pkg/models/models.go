@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-var ErrRecord = errors.New("models: mo matching record found")
+var ErrNoRecord = errors.New("models: mo matching record found")
 
 type Snippet struct {
 	ID      int
