@@ -1,6 +1,12 @@
 # VS Code files for those working on multiple tools
-.vscode/*
-!.vscode/settings.json
+.vscode/*.json
+
+### certificates ###
+tls/
+tls/*.pem
+tls/*.key
+tls/*.cer
+tls/*.crt
 
 ### macOS ###
 # General
@@ -13,3 +19,4 @@
 # Binaries for programs and plugins
 *.exe
 *.exe~
+
